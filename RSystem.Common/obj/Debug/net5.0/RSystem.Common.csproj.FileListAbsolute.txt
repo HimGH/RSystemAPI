@@ -1,0 +1,11 @@
+C:\Users\Him\source\repos\RSystem.Common\bin\Debug\net5.0\RSystem.Common.deps.json
+C:\Users\Him\source\repos\RSystem.Common\bin\Debug\net5.0\RSystem.Common.dll
+C:\Users\Him\source\repos\RSystem.Common\bin\Debug\net5.0\ref\RSystem.Common.dll
+C:\Users\Him\source\repos\RSystem.Common\bin\Debug\net5.0\RSystem.Common.pdb
+C:\Users\Him\source\repos\RSystem.Common\obj\Debug\net5.0\RSystem.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Him\source\repos\RSystem.Common\obj\Debug\net5.0\RSystem.Common.AssemblyInfoInputs.cache
+C:\Users\Him\source\repos\RSystem.Common\obj\Debug\net5.0\RSystem.Common.AssemblyInfo.cs
+C:\Users\Him\source\repos\RSystem.Common\obj\Debug\net5.0\RSystem.Common.csproj.CoreCompileInputs.cache
+C:\Users\Him\source\repos\RSystem.Common\obj\Debug\net5.0\RSystem.Common.dll
+C:\Users\Him\source\repos\RSystem.Common\obj\Debug\net5.0\ref\RSystem.Common.dll
+C:\Users\Him\source\repos\RSystem.Common\obj\Debug\net5.0\RSystem.Common.pdb
