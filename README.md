@@ -6,11 +6,8 @@ Welcome to the YourProject API documentation. Below you’ll find details on how
 
 - [Overview]
 - [Installation](#installation)
-- [Usage](#usage)
 - [API Endpoints](#api-endpoints)
-- [Testing](#testing)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Overview
 
@@ -20,7 +17,7 @@ The YourProject API allows you to get story data. It is built using .NET Core an
 
 To get started with the YourProject API, follow these steps:
 
-1. **Clone the repository**:
+##api-endpoints
 
-   ```bash
-   git clone 
+https://localhost:44376/Story/GetStories?PageNumber=1&PageSize=4
+
