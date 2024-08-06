@@ -17,7 +17,7 @@ The YourProject API allows you to get story data. It is built using .NET Core an
 
 To get started with the YourProject API, follow these steps:
 
-##api-endpoints
+## api-endpoints
 
 https://localhost:44376/Story/GetStories?PageNumber=1&PageSize=4
 
