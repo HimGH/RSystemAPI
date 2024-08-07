@@ -39,7 +39,7 @@ namespace RSystem.API.Controllers
                     data = response,
                     PageNumber = pagination.PageNumber,
                     PageSize = pagination.PageSize,
-                    TotalCount = response.Count()
+                    TotalCount = response.FirstOrDefault().total
                 });
             }
             else

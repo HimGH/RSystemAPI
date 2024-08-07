@@ -17,7 +17,7 @@ namespace RSystem.Data.Repository
     {
         private readonly HttpClient _httpClient;
         private readonly ILogger<StoryRepository> _logger;
-
+        private int total = 0;
         public StoryRepository(HttpClient httpClient, ILogger<StoryRepository> logger) {
             _httpClient = httpClient;
             _logger = logger;
@@ -38,6 +38,7 @@ namespace RSystem.Data.Repository
                 {
                     string content = await response.Content.ReadAsStringAsync();
                     ids = JsonSerializer.Deserialize<List<int>>(content);
+                    total = ids.Count();
                     ids = ids
                    .Skip((pagination.PageNumber - 1) * pagination.PageSize)
                    .Take(pagination.PageSize)
@@ -70,6 +71,7 @@ namespace RSystem.Data.Repository
                     {
                         string content = await response.Content.ReadAsStringAsync();
                         var story = JsonSerializer.Deserialize<StoryResponseModel>(content);
+                        story.total = total;
                         ids.Add(story);
                     }
                     catch (Exception ex)
