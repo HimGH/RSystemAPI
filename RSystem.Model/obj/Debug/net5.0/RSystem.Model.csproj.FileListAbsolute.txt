@@ -21,3 +21,4 @@ E:\RSystem\API\RSystemAPI\RSystem.Model\obj\Debug\net5.0\RSystem.Model.csproj.Co
 E:\RSystem\API\RSystemAPI\RSystem.Model\obj\Debug\net5.0\RSystem.Model.dll
 E:\RSystem\API\RSystemAPI\RSystem.Model\obj\Debug\net5.0\ref\RSystem.Model.dll
 E:\RSystem\API\RSystemAPI\RSystem.Model\obj\Debug\net5.0\RSystem.Model.pdb
+E:\RSystem\API\RSystemAPI\RSystem.Model\obj\Debug\net5.0\RSystem.Model.csprojAssemblyReference.cache

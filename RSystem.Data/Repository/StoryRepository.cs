@@ -78,7 +78,8 @@ namespace RSystem.Data.Repository
                     }
                 }
             }
-            
+            if (!string.IsNullOrWhiteSpace(pagination.Search))
+                ids = ids.Where(x => x.title.Contains(pagination.Search)).ToList();
             return ids;
         }
 

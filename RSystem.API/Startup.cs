@@ -30,6 +30,13 @@ namespace RSystem.API
         {
             services.AddHttpClient();
 
+            services.AddCors(options =>
+            {
+                options.AddPolicy("AllowAll",
+                    builder => builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+            });
+
+
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
@@ -52,7 +59,7 @@ namespace RSystem.API
             app.UseHttpsRedirection();
 
             app.UseRouting();
-
+            app.UseCors("AllowAll"); 
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
