@@ -59,7 +59,6 @@ namespace RSystem.API
             }
             else
             {
-                app.UseExceptionHandler("/Home/Error");
             }
            
             app.UseHttpsRedirection();

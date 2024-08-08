@@ -31,8 +31,7 @@ namespace RSystem.API.Controllers
         [ProducesResponseType(type: typeof(ClientResponseListModel<object>), statusCode: 200)]
         public async Task<IActionResult> GetStories([FromQuery] PaginationParameters pagination)
         {
-
-         var response =  await _storyRepository.GetStories(pagination);
+            var response =  await _storyRepository.GetStories(pagination);
             if (response != null)
             {
                 _logger.LogTrace("Success");
@@ -56,5 +55,6 @@ namespace RSystem.API.Controllers
             }
 
         }
+
     }
 }
