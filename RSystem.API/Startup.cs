@@ -38,6 +38,7 @@ namespace RSystem.API
 
            // services.AddTransient<CustMiddleware>();
             services.AddControllers();
+            services.AddResponseCaching();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "RSystem.API", Version = "v1" });
@@ -56,12 +57,17 @@ namespace RSystem.API
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "RSystem.API v1"));
             }
+            else
+            {
+                app.UseExceptionHandler("/Home/Error");
+            }
            
             app.UseHttpsRedirection();
 
             app.UseRouting();
             app.UseCors("AllowAll"); 
             app.UseAuthorization();
+            app.UseResponseCaching();
 
             app.UseEndpoints(endpoints =>
             {

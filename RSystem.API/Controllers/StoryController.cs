@@ -27,6 +27,7 @@ namespace RSystem.API.Controllers
         /// <param name="pagination"></param>
         /// <returns></returns>
         [HttpGet("GetStories")]
+        [ResponseCache(Duration = 60, Location = ResponseCacheLocation.Any, NoStore = false)]
         [ProducesResponseType(type: typeof(ClientResponseListModel<object>), statusCode: 200)]
         public async Task<IActionResult> GetStories([FromQuery] PaginationParameters pagination)
         {
