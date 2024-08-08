@@ -69,7 +69,7 @@ namespace RSystem.Data.Repository
                 {
                     var results = await response.Content.ReadAsStringAsync();
                     var story = JsonSerializer.Deserialize<StoryResponseModel>(results);
-                    story.total = total;
+                    if(story!=null) story.total = total;
                     ids.Add(story);
                 }
             }

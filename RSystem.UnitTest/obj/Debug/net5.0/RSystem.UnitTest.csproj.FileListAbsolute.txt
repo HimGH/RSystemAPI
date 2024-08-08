@@ -234,3 +234,5 @@ E:\RSystem\API\RSystemAPI\RSystem.UnitTest\obj\Debug\net5.0\RSystem.UnitTest.dll
 E:\RSystem\API\RSystemAPI\RSystem.UnitTest\obj\Debug\net5.0\ref\RSystem.UnitTest.dll
 E:\RSystem\API\RSystemAPI\RSystem.UnitTest\obj\Debug\net5.0\RSystem.UnitTest.pdb
 E:\RSystem\API\RSystemAPI\RSystem.UnitTest\obj\Debug\net5.0\RSystem.UnitTest.genruntimeconfig.cache
+E:\RSystem\API\RSystemAPI\RSystem.UnitTest\bin\Debug\net5.0\Castle.Core.dll
+E:\RSystem\API\RSystemAPI\RSystem.UnitTest\bin\Debug\net5.0\Moq.dll
