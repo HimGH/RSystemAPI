@@ -3,8 +3,6 @@ using Microsoft.Extensions.Logging;
 using RSystem.Data.Interface;
 using RSystem.Model.RequestModel;
 using RSystem.Model.ResponseModel;
-using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
@@ -26,6 +24,11 @@ namespace RSystem.API.Controllers
             _httpClient = httpClient;
         }
 
+        /// <summary>
+        /// Get Stories 
+        /// </summary>
+        /// <param name="pagination"></param>
+        /// <returns></returns>
         [HttpGet("GetStories")]
         [ProducesResponseType(type: typeof(ClientResponseListModel<object>), statusCode: 200)]
         public async Task<IActionResult> GetStories([FromQuery] PaginationParameters pagination)
