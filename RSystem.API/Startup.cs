@@ -36,7 +36,7 @@ namespace RSystem.API
                     builder => builder.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
             });
 
-
+           // services.AddTransient<CustMiddleware>();
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
@@ -52,6 +52,7 @@ namespace RSystem.API
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+                app.UseCustMiddleware();
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "RSystem.API v1"));
             }
