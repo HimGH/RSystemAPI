@@ -9,3 +9,15 @@ C:\Users\Him\source\repos\RSystem.Common\obj\Debug\net5.0\RSystem.Common.csproj.
 C:\Users\Him\source\repos\RSystem.Common\obj\Debug\net5.0\RSystem.Common.dll
 C:\Users\Him\source\repos\RSystem.Common\obj\Debug\net5.0\ref\RSystem.Common.dll
 C:\Users\Him\source\repos\RSystem.Common\obj\Debug\net5.0\RSystem.Common.pdb
+E:\RSystem\API\RSystemAPI\RSystem.Common\bin\Debug\net5.0\RSystem.Common.deps.json
+E:\RSystem\API\RSystemAPI\RSystem.Common\bin\Debug\net5.0\RSystem.Common.dll
+E:\RSystem\API\RSystemAPI\RSystem.Common\bin\Debug\net5.0\ref\RSystem.Common.dll
+E:\RSystem\API\RSystemAPI\RSystem.Common\bin\Debug\net5.0\RSystem.Common.pdb
+E:\RSystem\API\RSystemAPI\RSystem.Common\obj\Debug\net5.0\RSystem.Common.csprojAssemblyReference.cache
+E:\RSystem\API\RSystemAPI\RSystem.Common\obj\Debug\net5.0\RSystem.Common.GeneratedMSBuildEditorConfig.editorconfig
+E:\RSystem\API\RSystemAPI\RSystem.Common\obj\Debug\net5.0\RSystem.Common.AssemblyInfoInputs.cache
+E:\RSystem\API\RSystemAPI\RSystem.Common\obj\Debug\net5.0\RSystem.Common.AssemblyInfo.cs
+E:\RSystem\API\RSystemAPI\RSystem.Common\obj\Debug\net5.0\RSystem.Common.csproj.CoreCompileInputs.cache
+E:\RSystem\API\RSystemAPI\RSystem.Common\obj\Debug\net5.0\RSystem.Common.dll
+E:\RSystem\API\RSystemAPI\RSystem.Common\obj\Debug\net5.0\ref\RSystem.Common.dll
+E:\RSystem\API\RSystemAPI\RSystem.Common\obj\Debug\net5.0\RSystem.Common.pdb

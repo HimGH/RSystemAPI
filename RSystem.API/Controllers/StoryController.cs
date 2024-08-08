@@ -4,7 +4,6 @@ using RSystem.Data.Interface;
 using RSystem.Model.RequestModel;
 using RSystem.Model.ResponseModel;
 using System.Linq;
-using System.Net.Http;
 using System.Threading.Tasks;
 
 namespace RSystem.API.Controllers
@@ -13,15 +12,13 @@ namespace RSystem.API.Controllers
     [Route("[controller]")]
     public class StoryController : ControllerBase
     {
-        private readonly HttpClient _httpClient;
         private readonly IStoryRepository _storyRepository;
         private readonly ILogger<StoryController> _logger;
 
-        public StoryController(ILogger<StoryController> logger, HttpClient httpClient, IStoryRepository storyRepository)
+        public StoryController(ILogger<StoryController> logger, IStoryRepository storyRepository)
         {
             _logger = logger;
             _storyRepository = storyRepository;
-            _httpClient = httpClient;
         }
 
         /// <summary>
@@ -37,6 +34,7 @@ namespace RSystem.API.Controllers
          var response =  await _storyRepository.GetStories(pagination);
             if (response != null)
             {
+                _logger.LogTrace("Success");
                 return Ok(new ClientResponseListModel<object>()
                 {
                     data = response,

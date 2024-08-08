@@ -100,11 +100,12 @@ namespace RSystem.Data.Repository
                     ids = ids.Where(x => x.title.Contains(pagination.Search)).ToList();
                 return ids;
             }
-            catch (Exception)
+            catch (Exception ex)
             {
-                throw;
+                _logger.LogError(ex.ToString());
+                return null;
             }
-            
+
         }
 
     }
