@@ -3,3 +3,23 @@
 ################################################################################
 
 /RSystem.API/bin/Release/net5.0
+/RSystem.API/Properties
+/RSystem.API/RSystem.API.csproj.user
+/RSystem.Common/bin/Release/net5.0
+/RSystem.UnitTest/obj/Release/net5.0
+/RSystem.Model/obj/Release/net5.0
+/RSystem.Data/obj/Release/net5.0
+/RSystem.Model/bin/Release/net5.0/ref
+/RSystem.Model/bin/Release/net5.0/RSystem.Model.pdb
+/RSystem.Model/bin/Release/net5.0/RSystem.Model.dll
+/RSystem.Model/bin/Release/net5.0/RSystem.Model.deps.json
+/RSystem.Data/bin/Release/net5.0/ref
+/RSystem.Data/bin/Release/net5.0/RSystem.Model.pdb
+/RSystem.Data/bin/Release/net5.0/RSystem.Model.dll
+/RSystem.Data/bin/Release/net5.0/RSystem.Data.pdb
+/RSystem.Data/bin/Release/net5.0/RSystem.Data.dll
+/RSystem.Data/bin/Release/net5.0/RSystem.Data.deps.json
+/RSystem.Data/bin/Release/net5.0/RSystem.Common.pdb
+/RSystem.Data/bin/Release/net5.0/RSystem.Common.dll
+/RSystem.Common/obj/Release/net5.0
+/RSystem.API/.config
